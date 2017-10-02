@@ -2,7 +2,7 @@
 
 spl_autoload_register(function ($class) {
 	$prefix = 'Tools';
-	$baseDir = __DIR__ . '/Classes/';
+	$baseDir = __DIR__ . '/Tools/';
 	$len = strlen($prefix);
 	if (strncmp($prefix, $class, $len) !== 0) {
 		return;
